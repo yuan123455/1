@@ -1,0 +1,34 @@
+.home_category {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.home_category .cate_item {
+  width: 33.33%;
+  position: relative;
+  border-bottom: 5rpx solid #fff;
+}
+.home_category .cate_item image {
+  height: 240rpx;
+}
+.home_category .cate_item .cate_name {
+  position: absolute;
+  width: 100%;
+  height: 50rpx;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  background-image: -webkit-linear-gradient(left bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  font-size: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 20rpx;
+}
+

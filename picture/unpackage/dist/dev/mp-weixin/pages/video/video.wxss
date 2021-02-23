@@ -1,0 +1,28 @@
+.viedo_main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: calc(100vh - 36px);
+}
+.viedo_main .video_item {
+  width: 33.33%;
+  border: 5rpx solid #fff;
+}
+
+.video .video_title {
+  position: relative;
+}
+.video .video_title .title_inner {
+  width: 60%;
+  margin: 0 auto;
+}
+.video .video_title .iconsearch {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  right: 5%;
+}
+

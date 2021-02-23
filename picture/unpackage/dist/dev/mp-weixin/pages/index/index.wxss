@@ -1,0 +1,72 @@
+.album_bg {
+  position: relative;
+}
+.album_bg .album_info {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  height: 80rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #fff;
+  padding: 0 15rpx;
+}
+.album_bg .album_info .album_name {
+  font-size: 40rpx;
+}
+.album_bg .album_info .album_btn {
+  background-color: #d52a7e;
+  width: 152rpx;
+  height: 50rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-radius: 10rpx;
+}
+.album_author {
+  padding: 10rpx;
+}
+.album_author .album_author_info {
+  padding: 10rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.album_author .album_author_info image {
+  width: 50rpx;
+}
+.album_author .album_author_info .author_name {
+  color: #000;
+  margin-left: 15rpx;
+}
+.album_list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.album_list .album_item {
+  width: 33.33%;
+  border: 3rpx solid #fff;
+  margin-top: 2rpx;
+}
+.album_list .album_item image {
+  width: 200rpx;
+  height: 200rpx;
+}
+

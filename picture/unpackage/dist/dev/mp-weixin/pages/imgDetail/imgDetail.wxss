@@ -1,0 +1,187 @@
+.a {
+  width: 100%;
+  background-color: #0000FF;
+}
+
+.user_info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx;
+}
+.user_info .user_icon {
+  padding: 0 20rpx;
+}
+.user_info .user_icon image {
+  width: 88rpx;
+  border-radius: 50%;
+}
+.user_info .user_desc .user_name {
+  color: #000;
+  font-weight: 600;
+}
+.user_info .user_desc .user_time {
+  color: #ccc;
+  font-size: 24rpx;
+  padding: 10rpx 0;
+}
+.album_wrap {
+  padding: 20rpx;
+}
+.album_wrap .album_title {
+  padding: 10rpx 0;
+}
+.album_wrap .album_list .album_item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 10rpx 0 ;
+  border-bottom: 10rpx solid #eee;
+}
+.album_wrap .album_list .album_item .album_cover {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.album_wrap .album_list .album_item .album_cover image {
+  width: 180rpx;
+  height: 180rpx;
+}
+.album_wrap .album_list .album_item .album_info {
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+          flex: 3;
+  padding-left: 20rpx;
+  position: relative;
+}
+.album_wrap .album_list .album_item .album_info .album_info_text {
+  width: 100rpx;
+  height: 50rpx;
+  background-color: #FF5A5F;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.album_wrap .album_list .album_item .album_info .album_name {
+  padding: 10rpx 0;
+  color: #888;
+}
+.album_wrap .album_list .album_item .album_info .iconfont {
+  font-size: 40rpx;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  right: 10%;
+  color: #333333;
+}
+.comment_hot .comment_title {
+  padding: 15rpx;
+}
+.comment_hot .comment_title .comment_text {
+  font-weight: 600;
+  font-size: 28rpx;
+  color: #666;
+  margin-left: 10rpx;
+}
+.comment_hot .comment_title .icon-huo {
+  color: #DD524D;
+}
+.comment_hot .comment_list .comment_item {
+  border-bottom: 15rpx solid #eee;
+}
+.comment_hot .comment_list .comment_item .comment_user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx 0;
+}
+.comment_hot .comment_list .comment_item .comment_user .user_icon {
+  width: 15%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.comment_hot .comment_list .comment_item .comment_user .user_icon image {
+  width: 90%;
+}
+.comment_hot .comment_list .comment_item .comment_user .user_name {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.comment_hot .comment_list .comment_item .comment_user .user_name .user_nickname {
+  color: #777;
+}
+.comment_hot .comment_list .comment_item .comment_user .user_name .user_time {
+  color: #ccc;
+  font-size: 23rpx;
+  padding: 5rpx;
+}
+.comment_hot .comment_list .comment_item .comment_user .user_badge image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.comment_hot .comment_list .comment_item .comment_desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 30rpx 0;
+}
+.comment_hot .comment_list .comment_item .comment_desc .comment_content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-left: 15%;
+  color: #333333;
+}
+.comment_hot .comment_list .comment_item .comment_desc .comment_link {
+  text-align: center;
+}
+.comment_hot .comment_list .comment_item .comment_desc .comment_link .icondianzan {
+  margin-right: 10rpx;
+  color: #ced4dc;
+}
+.download {
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.download .download_btn {
+  width: 90%;
+  height: 85%;
+  background-color: #d52a7e;
+  color: #fff;
+  font-size: 50rpx;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+

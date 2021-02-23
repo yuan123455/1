@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "swiper-action": "/components/swiperAction/swiperAction"
+  }
+}

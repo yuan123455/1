@@ -1,0 +1,28 @@
+.category .category_title {
+  position: relative;
+}
+.category .category_title .title_inner {
+  width: 60%;
+  margin: 0 auto;
+}
+.category .category_title .iconsearch {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  right: 5%;
+  color: #b7b7ff;
+}
+.category .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: 1200px;
+}
+.category .content .cate_item {
+  width: 33.33%;
+  border: 5rpx solid #fff;
+}
+

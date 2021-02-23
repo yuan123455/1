@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "home-album": "/pages/home/home_album/home_album",
+    "home-category": "/pages/home/home_category/home_category",
+    "home-new": "/pages/home/home_new/home_new",
+    "home-recommend": "/pages/home/home_recommend/home_recommend"
+  }
+}
